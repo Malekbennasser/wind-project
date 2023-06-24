@@ -1,0 +1,343 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #132d71;
+
+  height: 100vh;
+}
+.back {
+  display: flex;
+  flex-direction: row;
+}
+.back .img1 {
+  display: flex;
+  position: relative;
+  height: min-content;
+  left: -35em;
+  bottom: -18em;
+  height: 35em;
+  filter: invert(1);
+  opacity: 0.1;
+}
+.logo {
+  display: flex;
+  position: relative;
+  top: -1.5em;
+  left: -1em;
+}
+
+.back .img2 {
+  display: flex;
+  position: relative;
+  height: 85%;
+  top: 16%;
+  left: -11%;
+}
+.logo-txt {
+  display: flex;
+  text-align: -webkit-auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -2%;
+}
+.logo img {
+  width: 250px;
+  height: 165px;
+}
+
+.title {
+  color: white;
+  position: relative;
+  left: 23%;
+  top: -24%;
+}
+.para {
+  color: white;
+  background: 42578D;
+  display: flex;
+  position: relative;
+  top: -3em;
+  left: 5.5em;
+}
+.button {
+  background-color: gainsboro;
+  border: none;
+  color: #132d71;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.s-button {
+  display: flex;
+  position: relative;
+  top: -3em;
+  right: -3.5em;
+}
+
+/**bloc1**/
+
+section {
+  background-image: url(svg1/compasbluelight.svg);
+  background-repeat: no-repeat;
+  background-size: 479px;
+  background-position-x: 113%;
+  background-position-y: 104%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 53vh;
+}
+.partie1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 24em;
+  position: relative;
+  top: 5em;
+  left: 5em;
+}
+.partie1 .txt-p1 {
+  background-color: #132d71;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+.partie1 .title-p1 {
+  color: #132d71;
+}
+.logo1 {
+  display: flex;
+  position: relative;
+  top: -4em;
+  left: -12em;
+  width: 232px;
+  height: 110px;
+}
+
+.back1 {
+  opacity: 0.1;
+  height: 34em;
+  width: 13em;
+  z-index: -1;
+}
+
+.partie2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
+  height: 53vh;
+}
+hr {
+  display: flex;
+  color: #132d71;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.compass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+}
+.star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+}
+.sailboat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+}
+.leaf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  top: 17px;
+}
+
+.compass img {
+  width: 100px;
+  height: 100px;
+}
+.star img {
+  width: 100px;
+  height: 100px;
+}
+.sailboat img {
+  width: 100px;
+  height: 100px;
+}
+.leaf img {
+  width: 100px;
+  height: 100px;
+}
+
+/* bloc 2*/
+
+#bloc2 {
+  background-image: url(svg1/sailboat-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position-x: -21%;
+  background-position-y: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #132d71;
+  height: 110vh;
+}
+.logo-p3 {
+  display: flex;
+  position: relative;
+  top: 2em;
+}
+.txt-p2 {
+  display: flex;
+  width: 50%;
+  position: relative;
+  top: -2em;
+  left: 2em;
+}
+
+.partie3 {
+  display: flex;
+  flex-direction: row;
+
+  gap: 4em;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.liste {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -1.5em;
+}
+.s-button1 {
+  display: flex;
+}
+.button1 {
+  background-color: gainsboro;
+  border: none;
+  color: #132d71;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+/**        FOOTer--*/
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  min-height: 300px;
+}
+.f-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 11em;
+  position: relative;
+  top: -1em;
+}
+.logo-social {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1em;
+  opacity: 0.3;
+}
+
+.li-info ul .li-style li {
+  list-style-type: none;
+}
+.li-info ul .li-style1 li {
+  list-style-type: none;
+}
+.li-info ul .li-style2 li {
+  list-style-type: none;
+}
+.l-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.li-style {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 10px;
+}
+.li-style1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: -9px;
+}
+.li-style2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: -12px;
+}
+.l-vertical hr {
+  text-align: center;
+  width: 90%;
+  color: yellow;
+  height: 1spx;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.copy-right {
+  color: #132d71;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
